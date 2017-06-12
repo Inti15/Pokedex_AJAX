@@ -1,39 +1,9 @@
-/*MARGENES*/
-.mt-10{
-  margin-top: 10%;
-}
-/*ESTILOS INDEX*/
-body,html{
-  width: 100%;
-  height: 100%;
+.pokemon{
+  width: 20%;
+  display: inline-block;
+  margin-right: 5%;
 }
 
-#portada{
-  width: 100%;
-  height: 100%;
-  background:radial-gradient(cyan, black);
-}
-
-#portada > div.row > img{
-  margin-top: 70%;
-}
-
-/*ESTILOS  INICIO*/
-#inicio{
-  background-image: url("../assets/img/fondoInicio.png");
-  background-size: cover;
-  /*background-color: lightgrey;*/
-}
-
-.btn-transparente{
-  background-color: transparent;
-  border: 1px solid white;
-}
-
-.btn-purple{
-  background:radial-gradient(pink, purple);
-}
-
-.btn-transparente:hover{
-  background: radial-gradient(pink, purple);
-}
+/*img{
+  width: 25%;
+}*/
